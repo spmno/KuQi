@@ -14,6 +14,7 @@
 		0BC0F20E1A9764C900E4E9F6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0BC0F20D1A9764C900E4E9F6 /* Images.xcassets */; };
 		0BC0F2111A9764C900E4E9F6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0BC0F20F1A9764C900E4E9F6 /* LaunchScreen.xib */; };
 		0BC0F21D1A9764C900E4E9F6 /* KuQiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BC0F21C1A9764C900E4E9F6 /* KuQiTests.m */; };
+		0BC0F2271A977AA300E4E9F6 /* 开始页.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BC0F2261A977AA300E4E9F6 /* 开始页.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		0BC0F2161A9764C900E4E9F6 /* KuQiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KuQiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0BC0F21B1A9764C900E4E9F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0BC0F21C1A9764C900E4E9F6 /* KuQiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KuQiTests.m; sourceTree = "<group>"; };
+		0BC0F2261A977AA300E4E9F6 /* 开始页.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "开始页.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 				0BC0F2071A9764C900E4E9F6 /* ViewController.h */,
 				0BC0F2081A9764C900E4E9F6 /* ViewController.m */,
 				0BC0F20A1A9764C900E4E9F6 /* Main.storyboard */,
+				0BC0F2261A977AA300E4E9F6 /* 开始页.png */,
 				0BC0F20D1A9764C900E4E9F6 /* Images.xcassets */,
 				0BC0F20F1A9764C900E4E9F6 /* LaunchScreen.xib */,
 				0BC0F2001A9764C900E4E9F6 /* Supporting Files */,
@@ -201,6 +204,7 @@
 			files = (
 				0BC0F20C1A9764C900E4E9F6 /* Main.storyboard in Resources */,
 				0BC0F2111A9764C900E4E9F6 /* LaunchScreen.xib in Resources */,
+				0BC0F2271A977AA300E4E9F6 /* 开始页.png in Resources */,
 				0BC0F20E1A9764C900E4E9F6 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

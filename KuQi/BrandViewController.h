@@ -10,4 +10,6 @@
 
 @interface BrandViewController : UITableViewController
 
+@property (strong, nonatomic) NSArray *brandJsonArray;
+
 @end

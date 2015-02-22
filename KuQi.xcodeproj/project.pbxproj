@@ -15,6 +15,8 @@
 		0BC0F2111A9764C900E4E9F6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0BC0F20F1A9764C900E4E9F6 /* LaunchScreen.xib */; };
 		0BC0F21D1A9764C900E4E9F6 /* KuQiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BC0F21C1A9764C900E4E9F6 /* KuQiTests.m */; };
 		0BC0F2271A977AA300E4E9F6 /* 开始页.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BC0F2261A977AA300E4E9F6 /* 开始页.png */; };
+		0BC0F22A1A97878300E4E9F6 /* BrandViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BC0F2291A97878300E4E9F6 /* BrandViewController.m */; };
+		0BC70EA81A9A2D40000121B9 /* CyclingController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BC70EA71A9A2D40000121B9 /* CyclingController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +44,10 @@
 		0BC0F21B1A9764C900E4E9F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0BC0F21C1A9764C900E4E9F6 /* KuQiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KuQiTests.m; sourceTree = "<group>"; };
 		0BC0F2261A977AA300E4E9F6 /* 开始页.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "开始页.png"; sourceTree = "<group>"; };
+		0BC0F2281A97878300E4E9F6 /* BrandViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrandViewController.h; sourceTree = "<group>"; };
+		0BC0F2291A97878300E4E9F6 /* BrandViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BrandViewController.m; sourceTree = "<group>"; };
+		0BC70EA61A9A2D40000121B9 /* CyclingController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CyclingController.h; sourceTree = "<group>"; };
+		0BC70EA71A9A2D40000121B9 /* CyclingController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CyclingController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +98,10 @@
 				0BC0F20D1A9764C900E4E9F6 /* Images.xcassets */,
 				0BC0F20F1A9764C900E4E9F6 /* LaunchScreen.xib */,
 				0BC0F2001A9764C900E4E9F6 /* Supporting Files */,
+				0BC0F2281A97878300E4E9F6 /* BrandViewController.h */,
+				0BC0F2291A97878300E4E9F6 /* BrandViewController.m */,
+				0BC70EA61A9A2D40000121B9 /* CyclingController.h */,
+				0BC70EA71A9A2D40000121B9 /* CyclingController.m */,
 			);
 			path = KuQi;
 			sourceTree = "<group>";
@@ -225,7 +235,9 @@
 			files = (
 				0BC0F2091A9764C900E4E9F6 /* ViewController.m in Sources */,
 				0BC0F2061A9764C900E4E9F6 /* AppDelegate.m in Sources */,
+				0BC0F22A1A97878300E4E9F6 /* BrandViewController.m in Sources */,
 				0BC0F2031A9764C900E4E9F6 /* main.m in Sources */,
+				0BC70EA81A9A2D40000121B9 /* CyclingController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,6 +428,7 @@
 				0BC0F2221A9764C900E4E9F6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0BC0F2231A9764C900E4E9F6 /* Build configuration list for PBXNativeTarget "KuQiTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +437,7 @@
 				0BC0F2251A9764C900E4E9F6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

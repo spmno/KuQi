@@ -16,6 +16,10 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    locationManager = [[CLLocationManager alloc]init];
+    locationManager.delegate = self;
+    locationManager.desiredAccuracy=kCLLocationAccuracyBest;
+    [locationManager startUpdatingLocation];
     // Do any additional setup after loading the view.
 }
 
@@ -33,5 +37,10 @@
     // Pass the selected object to the new view controller.
 }
 */
+
+- (void)locationManager:(CLLocationManager *)manager didUpdateLocations:(NSArray *)locations {
+    CLLocation *lastLocation = [locations lastObject];
+    
+}
 
 @end

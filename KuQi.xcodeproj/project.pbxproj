@@ -16,6 +16,7 @@
 		0BC0F21D1A9764C900E4E9F6 /* KuQiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BC0F21C1A9764C900E4E9F6 /* KuQiTests.m */; };
 		0BC0F2271A977AA300E4E9F6 /* 开始页.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BC0F2261A977AA300E4E9F6 /* 开始页.png */; };
 		0BC0F22A1A97878300E4E9F6 /* BrandViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BC0F2291A97878300E4E9F6 /* BrandViewController.m */; };
+		0BC23F141A9CC4D700CF9ABE /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BC23F131A9CC4D700CF9ABE /* CoreLocation.framework */; };
 		0BC70EA81A9A2D40000121B9 /* CyclingController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BC70EA71A9A2D40000121B9 /* CyclingController.m */; };
 /* End PBXBuildFile section */
 
@@ -46,6 +47,7 @@
 		0BC0F2261A977AA300E4E9F6 /* 开始页.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "开始页.png"; sourceTree = "<group>"; };
 		0BC0F2281A97878300E4E9F6 /* BrandViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrandViewController.h; sourceTree = "<group>"; };
 		0BC0F2291A97878300E4E9F6 /* BrandViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BrandViewController.m; sourceTree = "<group>"; };
+		0BC23F131A9CC4D700CF9ABE /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		0BC70EA61A9A2D40000121B9 /* CyclingController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CyclingController.h; sourceTree = "<group>"; };
 		0BC70EA71A9A2D40000121B9 /* CyclingController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CyclingController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -55,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0BC23F141A9CC4D700CF9ABE /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,6 +74,7 @@
 		0BC0F1F41A9764C900E4E9F6 = {
 			isa = PBXGroup;
 			children = (
+				0BC23F131A9CC4D700CF9ABE /* CoreLocation.framework */,
 				0BC0F1FF1A9764C900E4E9F6 /* KuQi */,
 				0BC0F2191A9764C900E4E9F6 /* KuQiTests */,
 				0BC0F1FE1A9764C900E4E9F6 /* Products */,

@@ -18,6 +18,7 @@
 		0BC0F22A1A97878300E4E9F6 /* BrandViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BC0F2291A97878300E4E9F6 /* BrandViewController.m */; };
 		0BC23F141A9CC4D700CF9ABE /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BC23F131A9CC4D700CF9ABE /* CoreLocation.framework */; };
 		0BC70EA81A9A2D40000121B9 /* CyclingController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BC70EA71A9A2D40000121B9 /* CyclingController.m */; };
+		0BC7A0D71A9D980B00F46873 /* BikeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BC7A0D61A9D980B00F46873 /* BikeViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,8 @@
 		0BC23F131A9CC4D700CF9ABE /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		0BC70EA61A9A2D40000121B9 /* CyclingController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CyclingController.h; sourceTree = "<group>"; };
 		0BC70EA71A9A2D40000121B9 /* CyclingController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CyclingController.m; sourceTree = "<group>"; };
+		0BC7A0D51A9D980B00F46873 /* BikeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BikeViewController.h; sourceTree = "<group>"; };
+		0BC7A0D61A9D980B00F46873 /* BikeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BikeViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +109,8 @@
 				0BC0F2291A97878300E4E9F6 /* BrandViewController.m */,
 				0BC70EA61A9A2D40000121B9 /* CyclingController.h */,
 				0BC70EA71A9A2D40000121B9 /* CyclingController.m */,
+				0BC7A0D51A9D980B00F46873 /* BikeViewController.h */,
+				0BC7A0D61A9D980B00F46873 /* BikeViewController.m */,
 			);
 			path = KuQi;
 			sourceTree = "<group>";
@@ -238,6 +243,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0BC0F2091A9764C900E4E9F6 /* ViewController.m in Sources */,
+				0BC7A0D71A9D980B00F46873 /* BikeViewController.m in Sources */,
 				0BC0F2061A9764C900E4E9F6 /* AppDelegate.m in Sources */,
 				0BC0F22A1A97878300E4E9F6 /* BrandViewController.m in Sources */,
 				0BC0F2031A9764C900E4E9F6 /* main.m in Sources */,

@@ -9,6 +9,10 @@
 #import <UIKit/UIKit.h>
 
 @interface BrandViewController : UITableViewController
+{
+    NSString *currentPressBrand;
+    NSMutableArray *brandIdArray;
+}
 
 @property (strong, nonatomic) NSArray *brandJsonArray;
 

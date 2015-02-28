@@ -10,4 +10,7 @@
 
 @interface BikeViewController : UITableViewController
 
+@property (nonatomic, strong) NSString* brandId;
+@property (strong, nonatomic) NSArray *bikeJsonArray;
+
 @end

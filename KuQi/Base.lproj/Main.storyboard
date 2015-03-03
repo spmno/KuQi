@@ -51,7 +51,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="v5A-1M-dzK" style="IBUITableViewCellStyleDefault" id="5l2-fO-xNa">
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="bike" textLabel="v5A-1M-dzK" style="IBUITableViewCellStyleDefault" id="5l2-fO-xNa">
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="5l2-fO-xNa" id="ujt-x5-RdB">
                                     <autoresizingMask key="autoresizingMask"/>
@@ -64,6 +64,9 @@
                                         </label>
                                     </subviews>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <segue destination="OWX-eD-agV" kind="show" identifier="bikeSegue" id="u8O-3Y-gtk"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -71,11 +74,29 @@
                             <outlet property="delegate" destination="HwR-pd-iz1" id="rnE-5i-pW8"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="EBC-xe-4Og"/>
+                    <navigationItem key="navigationItem" title="车型" id="EBC-xe-4Og"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xum-aA-VtW" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2261" y="-336"/>
+        </scene>
+        <!--Bike Detail View Controller-->
+        <scene sceneID="NKj-D3-MUf">
+            <objects>
+                <viewController id="OWX-eD-agV" customClass="BikeDetailViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="dJO-HF-d1g"/>
+                        <viewControllerLayoutGuide type="bottom" id="RaX-1s-ROv"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="eFJ-xn-Aht">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bIf-LD-CMv" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2997" y="-336"/>
         </scene>
         <!--品牌库-->
         <scene sceneID="eg0-id-IRE">

@@ -16,10 +16,18 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    if (![CLLocationManager locationServicesEnabled]) {
+        UIAlertView *alert = [[UIAlertView alloc]initWithTitle:@"turn on gps" message:@"turn on gps" delegate:nil cancelButtonTitle:@"Cancel" otherButtonTitles:@"Yes", nil];
+        [alert show];
+        return;
+    }
     locationManager = [[CLLocationManager alloc]init];
     locationManager.delegate = self;
     locationManager.desiredAccuracy=kCLLocationAccuracyBest;
     [locationManager startUpdatingLocation];
+    if ([[[UIDevice currentDevice] systemVersion] floatValue] >= 8.0) {
+        [locationManager requestWhenInUseAuthorization];
+    }
     // Do any additional setup after loading the view.
 }
 
@@ -40,7 +48,7 @@
 
 - (void)locationManager:(CLLocationManager *)manager didUpdateLocations:(NSArray *)locations {
     CLLocation *lastLocation = [locations lastObject];
-    
+    NSString *currentSpeed = [NSString stringWithFormat:@"%f", [lastLocation speed]];
 }
 
 @end

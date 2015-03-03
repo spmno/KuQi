@@ -29,7 +29,7 @@
              self.bikeJsonArray = [NSJSONSerialization JSONObjectWithData:data options:kNilOptions error:&error];
              for (NSDictionary *item in self.bikeJsonArray) {
                  //NSString *photoUrl = [ipUrlString stringByAppendingString:(NSString*)[item objectForKey:@"photo"]];
-                 //[brandIdArray addObject:[item objectForKey:@"id"]];
+                 [bikeIdArray addObject:[item objectForKey:@"id"]];
              }
              dispatch_async(dispatch_get_main_queue(), ^{
                  [self.tableView reloadData];
@@ -43,6 +43,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self getBikeData];
+    bikeIdArray = [[NSMutableArray alloc]init];
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
     
@@ -122,14 +123,20 @@
 }
 */
 
-/*
+
 #pragma mark - Navigation
 
 // In a storyboard-based application, you will often want to do a little preparation before navigation
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
     // Get the new view controller using [segue destinationViewController].
     // Pass the selected object to the new view controller.
+    id bikeDetailController = segue.destinationViewController;
+    NSUInteger row = self.tableView.indexPathForSelectedRow.row;
+    NSInteger brandId = ((NSNumber*)[bikeIdArray objectAtIndex: row]).integerValue;
+    NSString *brandString = [NSString stringWithFormat:@"%ld", (long)brandId];
+    [bikeDetailController setValue:brandString forKey:@"bikeId"];
+
 }
-*/
+
 
 @end

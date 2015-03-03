@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0BB870A81AA20D3000CA84FB /* BikeDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BB870A71AA20D3000CA84FB /* BikeDetailViewController.m */; };
 		0BC0F2031A9764C900E4E9F6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BC0F2021A9764C900E4E9F6 /* main.m */; };
 		0BC0F2061A9764C900E4E9F6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BC0F2051A9764C900E4E9F6 /* AppDelegate.m */; };
 		0BC0F2091A9764C900E4E9F6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BC0F2081A9764C900E4E9F6 /* ViewController.m */; };
@@ -19,6 +20,7 @@
 		0BC23F141A9CC4D700CF9ABE /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BC23F131A9CC4D700CF9ABE /* CoreLocation.framework */; };
 		0BC70EA81A9A2D40000121B9 /* CyclingController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BC70EA71A9A2D40000121B9 /* CyclingController.m */; };
 		0BC7A0D71A9D980B00F46873 /* BikeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BC7A0D61A9D980B00F46873 /* BikeViewController.m */; };
+		D1E8D3FE1F18DC0004F35CE6 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D0E483D70A4FC7D3CBD2DE1 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +34,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0BB870A61AA20D3000CA84FB /* BikeDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BikeDetailViewController.h; sourceTree = "<group>"; };
+		0BB870A71AA20D3000CA84FB /* BikeDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BikeDetailViewController.m; sourceTree = "<group>"; };
 		0BC0F1FD1A9764C900E4E9F6 /* KuQi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KuQi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0BC0F2011A9764C900E4E9F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0BC0F2021A9764C900E4E9F6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -53,6 +57,9 @@
 		0BC70EA71A9A2D40000121B9 /* CyclingController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CyclingController.m; sourceTree = "<group>"; };
 		0BC7A0D51A9D980B00F46873 /* BikeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BikeViewController.h; sourceTree = "<group>"; };
 		0BC7A0D61A9D980B00F46873 /* BikeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BikeViewController.m; sourceTree = "<group>"; };
+		43B90695C4935547E8490132 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		6D0E483D70A4FC7D3CBD2DE1 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D55BF65AB493E669905D49A4 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +68,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0BC23F141A9CC4D700CF9ABE /* CoreLocation.framework in Frameworks */,
+				D1E8D3FE1F18DC0004F35CE6 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +89,8 @@
 				0BC0F1FF1A9764C900E4E9F6 /* KuQi */,
 				0BC0F2191A9764C900E4E9F6 /* KuQiTests */,
 				0BC0F1FE1A9764C900E4E9F6 /* Products */,
+				7A23A4D620CEE3F3DD16F40F /* Pods */,
+				AFB4EC49C2DB53668ED8FF2F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -111,6 +121,8 @@
 				0BC70EA71A9A2D40000121B9 /* CyclingController.m */,
 				0BC7A0D51A9D980B00F46873 /* BikeViewController.h */,
 				0BC7A0D61A9D980B00F46873 /* BikeViewController.m */,
+				0BB870A61AA20D3000CA84FB /* BikeDetailViewController.h */,
+				0BB870A71AA20D3000CA84FB /* BikeDetailViewController.m */,
 			);
 			path = KuQi;
 			sourceTree = "<group>";
@@ -141,6 +153,23 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		7A23A4D620CEE3F3DD16F40F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				43B90695C4935547E8490132 /* Pods.debug.xcconfig */,
+				D55BF65AB493E669905D49A4 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AFB4EC49C2DB53668ED8FF2F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6D0E483D70A4FC7D3CBD2DE1 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -148,9 +177,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0BC0F2201A9764C900E4E9F6 /* Build configuration list for PBXNativeTarget "KuQi" */;
 			buildPhases = (
+				88EBCB7120E44F92EA2FDD5B /* Check Pods Manifest.lock */,
 				0BC0F1F91A9764C900E4E9F6 /* Sources */,
 				0BC0F1FA1A9764C900E4E9F6 /* Frameworks */,
 				0BC0F1FB1A9764C900E4E9F6 /* Resources */,
+				A96E258FC792BF54035BEEC2 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -237,11 +268,45 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		88EBCB7120E44F92EA2FDD5B /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A96E258FC792BF54035BEEC2 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0BC0F1F91A9764C900E4E9F6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0BB870A81AA20D3000CA84FB /* BikeDetailViewController.m in Sources */,
 				0BC0F2091A9764C900E4E9F6 /* ViewController.m in Sources */,
 				0BC7A0D71A9D980B00F46873 /* BikeViewController.m in Sources */,
 				0BC0F2061A9764C900E4E9F6 /* AppDelegate.m in Sources */,
@@ -367,6 +432,7 @@
 		};
 		0BC0F2211A9764C900E4E9F6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43B90695C4935547E8490132 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = KuQi/Info.plist;
@@ -377,6 +443,7 @@
 		};
 		0BC0F2221A9764C900E4E9F6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D55BF65AB493E669905D49A4 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = KuQi/Info.plist;

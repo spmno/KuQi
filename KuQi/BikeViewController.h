@@ -9,6 +9,9 @@
 #import <UIKit/UIKit.h>
 
 @interface BikeViewController : UITableViewController
+{
+    NSMutableArray *bikeIdArray;
+}
 
 @property (nonatomic, strong) NSString* brandId;
 @property (strong, nonatomic) NSArray *bikeJsonArray;

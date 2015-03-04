@@ -7,6 +7,7 @@
 //
 
 #import "BikeDetailViewController.h"
+#import "BikeGeneralViewController.h"
 
 @interface BikeDetailViewController ()
 
@@ -15,29 +16,13 @@
 @implementation BikeDetailViewController
 
 
-- (void)getBikeData {
-    NSString *brandUrlString = @"http://115.28.1.131/bikes/";
-    NSString *wholeUrlString = [[brandUrlString stringByAppendingString:self.bikeId] stringByAppendingString:@".json"];
-    NSURL *url = [NSURL URLWithString:wholeUrlString];
-    NSURLRequest *urlRequest = [NSURLRequest requestWithURL:url];
-    NSOperationQueue *queue = [[NSOperationQueue alloc] init];
-    [NSURLConnection sendAsynchronousRequest:urlRequest queue:queue completionHandler:
-     ^(NSURLResponse *response, NSData *data, NSError *error) {
-         if (([data length] > 0) && (error == nil)) {
-             NSString *html = [[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding];
-             NSLog(@"html = %@", html);
-             NSError *error;
-             jsonMap = [NSJSONSerialization JSONObjectWithData:data options:kNilOptions error:&error];
-         }
-     }];
-    
-}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     self.delegate = self;
     self.dataSource = self;
+
 }
 
 - (void)didReceiveMemoryWarning {
@@ -52,9 +37,26 @@
 
 - (UIView *)viewPager:(ViewPagerController *)viewPager viewForTabAtIndex:(NSUInteger)index {
     UILabel *label = [UILabel new];
-    label.text = [NSString stringWithFormat:@"Tab%i", index];
+    switch (index) {
+        case 0:
+            label.text = @"概要";
+            break;
+        case 1:
+            label.text = @"图片";
+            break;
+        case 2:
+            label.text = @"销售商";
+            break;
+        default:
+            break;
+    }
     [label sizeToFit];
     return label;
+}
+
+- (UIViewController *)viewPager:(ViewPagerController *)viewPager contentViewControllerForTabAtIndex:(NSUInteger)index {
+    BikeGeneralViewController *generalViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"bikeGeneral"];
+    return generalViewController;
 }
 
 /*

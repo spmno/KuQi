@@ -91,12 +91,50 @@
                     <view key="view" contentMode="scaleToFill" id="eFJ-xn-Aht">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qni-MG-3ub">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                            </scrollView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bIf-LD-CMv" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2997" y="-336"/>
+            <point key="canvasLocation" x="3045" y="-336"/>
+        </scene>
+        <!--Bike General View Controller-->
+        <scene sceneID="1Mx-76-hzp">
+            <objects>
+                <viewController storyboardIdentifier="bikeGeneral" id="qAf-we-9mb" customClass="BikeGeneralViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="xJN-Xh-fkD"/>
+                        <viewControllerLayoutGuide type="bottom" id="ihU-cI-zVs"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="HBo-go-Xdz">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="96J-sS-2pe">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="400"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3lR-Xg-72K">
+                                <rect key="frame" x="0.0" y="401" width="600" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="bikeShowImageView" destination="96J-sS-2pe" id="hsi-mX-ftP"/>
+                        <outlet property="bikeTitleLabel" destination="3lR-Xg-72K" id="I0E-Ts-zWz"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VDf-Wv-ydr" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2997" y="-1054"/>
         </scene>
         <!--品牌库-->
         <scene sceneID="eg0-id-IRE">

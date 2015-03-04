@@ -11,9 +11,10 @@
 
 @interface BikeDetailViewController : ViewPagerController
 {
-    NSDictionary *jsonMap;
+    
 }
 
 @property (nonatomic, strong) NSString *bikeId;
+
 
 @end

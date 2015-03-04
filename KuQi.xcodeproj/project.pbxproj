@@ -13,13 +13,13 @@
 		0BC0F2091A9764C900E4E9F6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BC0F2081A9764C900E4E9F6 /* ViewController.m */; };
 		0BC0F20C1A9764C900E4E9F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0BC0F20A1A9764C900E4E9F6 /* Main.storyboard */; };
 		0BC0F20E1A9764C900E4E9F6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0BC0F20D1A9764C900E4E9F6 /* Images.xcassets */; };
-		0BC0F2111A9764C900E4E9F6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0BC0F20F1A9764C900E4E9F6 /* LaunchScreen.xib */; };
 		0BC0F21D1A9764C900E4E9F6 /* KuQiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BC0F21C1A9764C900E4E9F6 /* KuQiTests.m */; };
 		0BC0F2271A977AA300E4E9F6 /* 开始页.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BC0F2261A977AA300E4E9F6 /* 开始页.png */; };
 		0BC0F22A1A97878300E4E9F6 /* BrandViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BC0F2291A97878300E4E9F6 /* BrandViewController.m */; };
 		0BC23F141A9CC4D700CF9ABE /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BC23F131A9CC4D700CF9ABE /* CoreLocation.framework */; };
 		0BC70EA81A9A2D40000121B9 /* CyclingController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BC70EA71A9A2D40000121B9 /* CyclingController.m */; };
 		0BC7A0D71A9D980B00F46873 /* BikeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BC7A0D61A9D980B00F46873 /* BikeViewController.m */; };
+		0BCC28E21AA752C3000D2865 /* BikeGeneralViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BCC28E11AA752C3000D2865 /* BikeGeneralViewController.m */; };
 		D1E8D3FE1F18DC0004F35CE6 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D0E483D70A4FC7D3CBD2DE1 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -45,7 +45,6 @@
 		0BC0F2081A9764C900E4E9F6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		0BC0F20B1A9764C900E4E9F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0BC0F20D1A9764C900E4E9F6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		0BC0F2101A9764C900E4E9F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		0BC0F2161A9764C900E4E9F6 /* KuQiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KuQiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0BC0F21B1A9764C900E4E9F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0BC0F21C1A9764C900E4E9F6 /* KuQiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KuQiTests.m; sourceTree = "<group>"; };
@@ -57,6 +56,8 @@
 		0BC70EA71A9A2D40000121B9 /* CyclingController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CyclingController.m; sourceTree = "<group>"; };
 		0BC7A0D51A9D980B00F46873 /* BikeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BikeViewController.h; sourceTree = "<group>"; };
 		0BC7A0D61A9D980B00F46873 /* BikeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BikeViewController.m; sourceTree = "<group>"; };
+		0BCC28E01AA752C3000D2865 /* BikeGeneralViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BikeGeneralViewController.h; sourceTree = "<group>"; };
+		0BCC28E11AA752C3000D2865 /* BikeGeneralViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BikeGeneralViewController.m; sourceTree = "<group>"; };
 		43B90695C4935547E8490132 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		6D0E483D70A4FC7D3CBD2DE1 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		D55BF65AB493E669905D49A4 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
@@ -113,7 +114,6 @@
 				0BC0F20A1A9764C900E4E9F6 /* Main.storyboard */,
 				0BC0F2261A977AA300E4E9F6 /* 开始页.png */,
 				0BC0F20D1A9764C900E4E9F6 /* Images.xcassets */,
-				0BC0F20F1A9764C900E4E9F6 /* LaunchScreen.xib */,
 				0BC0F2001A9764C900E4E9F6 /* Supporting Files */,
 				0BC0F2281A97878300E4E9F6 /* BrandViewController.h */,
 				0BC0F2291A97878300E4E9F6 /* BrandViewController.m */,
@@ -123,6 +123,8 @@
 				0BC7A0D61A9D980B00F46873 /* BikeViewController.m */,
 				0BB870A61AA20D3000CA84FB /* BikeDetailViewController.h */,
 				0BB870A71AA20D3000CA84FB /* BikeDetailViewController.m */,
+				0BCC28E01AA752C3000D2865 /* BikeGeneralViewController.h */,
+				0BCC28E11AA752C3000D2865 /* BikeGeneralViewController.m */,
 			);
 			path = KuQi;
 			sourceTree = "<group>";
@@ -253,7 +255,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				0BC0F20C1A9764C900E4E9F6 /* Main.storyboard in Resources */,
-				0BC0F2111A9764C900E4E9F6 /* LaunchScreen.xib in Resources */,
 				0BC0F2271A977AA300E4E9F6 /* 开始页.png in Resources */,
 				0BC0F20E1A9764C900E4E9F6 /* Images.xcassets in Resources */,
 			);
@@ -312,6 +313,7 @@
 				0BC0F2061A9764C900E4E9F6 /* AppDelegate.m in Sources */,
 				0BC0F22A1A97878300E4E9F6 /* BrandViewController.m in Sources */,
 				0BC0F2031A9764C900E4E9F6 /* main.m in Sources */,
+				0BCC28E21AA752C3000D2865 /* BikeGeneralViewController.m in Sources */,
 				0BC70EA81A9A2D40000121B9 /* CyclingController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -341,14 +343,6 @@
 				0BC0F20B1A9764C900E4E9F6 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		0BC0F20F1A9764C900E4E9F6 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0BC0F2101A9764C900E4E9F6 /* Base */,
-			);
-			name = LaunchScreen.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
